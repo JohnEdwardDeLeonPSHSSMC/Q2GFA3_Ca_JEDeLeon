@@ -1,0 +1,95 @@
+/** FONTS **/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/** SELECT ALL **/
+* {
+    padding:0;
+    margin:0;
+}
+
+/** HEADER **/
+header {
+    background-color:black;
+    font-family:'Montserrat';
+    padding:2.5vh 5vh;
+    display:flex;
+    justify-content: space-between;
+    opacity:100%;
+}
+
+/** LINKS **/
+.links a {
+    padding-left:1.5vw;
+}
+
+/** PAGE TITLE **/
+.pagetitle {
+    color:white;
+}
+
+/** IN PAGE **/
+.inpage {
+    color:white;
+    padding-left:1.5vw;
+    font-weight:bold;
+}
+
+/** A **/
+a {
+    text-decoration:none;
+    color:white;
+}
+
+/** HOVER ANIMATION FOR LINKS A **/
+.links a:hover {
+    transition-duration:0.25s;
+    font-weight:bold;
+}
+
+/** SLOGAN **/
+#slogan {
+    font-family:'Montserrat';
+    font-size:75px;
+    position:relative;
+    padding-top:230px;
+    color:white;
+    text-align:center;
+    font-weight:900;
+    text-shadow:6px 6px 17px black;
+}
+
+/** SUBTITLE **/
+#subtitle {
+    font-family:'Montserrat';
+    font-size:25px;
+    position:relative;
+    padding-top:5px;
+    color:white;
+    text-align:center;
+    font-weight:normal;
+    text-shadow:2px 2px 5px black;
+}
+
+/** VIDEO **/
+.video {
+    display:flex;
+    object-fit:cover;
+    position:fixed;
+    z-index:-1;
+    height:100%;
+    width:100%;
+    overflow-x:hidden;
+    align-items:center;
+    filter: brightness(50%);
+}
+
+/** CONTRIBUTIONS IMAGE **/
+.contributions {
+    font-family:'Oswald';
+    height:100%;
+    width:100%;
+    position:relative;
+    padding-top:10px;
+
+}
